@@ -474,6 +474,7 @@ export interface Settings {
 }
 export interface Header {
   id: string
+  copyright: string;
   navItems?:
     | {
         link: {
